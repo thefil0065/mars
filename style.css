@@ -1,0 +1,155 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+:root {
+    --main-color: #CC1E2C;
+    --second-color: #FF5435;
+    --third-color: rgb(30, 34, 38);
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.text-second-color {
+    color: var(--second-color);
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+
+.bg-second-color {
+    background-color: var(--second-color);
+}
+
+.bg-third-color {
+    background-color: var(--third-color);
+}
+
+.text-ghost-white {
+    color: ghostwhite;
+}
+
+
+.header-bg-mars {
+    height: 100vh;
+    background: linear-gradient(#111, transparent, #111) ,url("./media/mars-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+} 
+
+.h1-mars {
+    
+    text-shadow: 5px 5px 10px var(--second-color), 5px 5px 10px black;
+}
+
+
+@media screen and (min-width: 768px){
+    .h1-mars {
+        letter-spacing: 20px;
+        
+    }
+}
+
+.btn-custom {
+    background-color: var(--second-color);
+}
+.btn-custom:hover {
+    background-color: var(--main-color);
+}
+
+
+
+.bg-custom {
+    background-color: #1A1A1A;
+}
+
+.bg-custom-img {
+    box-shadow: 20px -20px var(--main-color) ;
+}
+
+.bg-custom-img2 {
+    box-shadow: -20px 20px var(--second-color) ;
+}
+
+.bg-full-width {
+    background: linear-gradient(#13161A,transparent )  ,url("./media/mars-2051748_1280.png") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    overflow: hidden;
+
+}
+
+.border-custom {
+    border-bottom: 3px solid var(--second-color);
+}
+
+.bg-footer {
+    background-color: #1A1A1A;
+    
+}
+
+
+.container-custom-past {
+    background: url("./media/372_mariner6.jpeg");
+    height: 400px;
+    background-position: center;
+    background-size: cover ;
+    border: 4px solid #3B667D;
+    overflow: hidden;
+
+}
+
+.container-custom-past:hover {
+    background: linear-gradient(#3b667d98, transparent),url("./media/372_mariner6.jpeg")!important;
+    background-position: center !important;
+    background-size: cover !important;
+
+
+}
+
+.container-custom-present {
+    background: url("./media/rover2.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover ;
+    border: 4px solid var(--second-color);
+    overflow: hidden;
+
+}
+
+.container-custom-present:hover {
+    background: linear-gradient(#ff533593, transparent),url("./media/rover2.jpg")!important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+
+.container-custom-future {
+    background: url("./media/screenshoteasy.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover ;
+    border: 4px solid var(--main-color);
+    overflow: hidden;
+
+}
+.container-custom-future:hover {
+    background: linear-gradient(#cc1e2c6c, transparent),url("./media/screenshoteasy.png")!important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+  
