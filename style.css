@@ -152,4 +152,13 @@ html, body {
     background-size: cover !important;
 }
 
-  
+.footer-bg {
+    background-color: #FF5435;
+}
+.link-no-dec {
+    text-decoration: none;
+    font-size: large;
+}
+.list-style-no {
+    list-style: none;
+}
