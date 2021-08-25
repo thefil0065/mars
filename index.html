@@ -193,24 +193,22 @@
         </div>
     </div>
 
-    <footer class="container-fluid footer-bg p-4">
-        <div class="row justify-content-center align-items-center">
-
-            <div class="col-12 col-md-4 py-3">
-                <a class="fw-bold text-center text-white link-no-dec" href="#">MARS</a>
+    <footer class="container-fluid footer-bg">
+        <div class="row align-items-center justify-content-center p-4">
+            <div class="col-12 col-md-4">
+                <a class="fw-bold link-no-dec text-white" href="#">MARS</a>
                 <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus commodi esse tempore consequatur magnam officia qui aut, voluptate nobis facilis excepturi soluta illum, ex quasi. Possimus laboriosam corporis a libero!</p>
             </div>
-            <div class="col-12 col-md-4 py-3">   
-                <img src="./media/nasa.png" class="d-block mx-auto img-fluid" alt="">             
-            </div>
-            <div class="col-12 py-3 col-md-4">
-                <ul class="list-style-no">
-                    <li><a href="" class="text-white">Link</a></li>
-                    <li><a href="" class="text-white">Link</a></li>
-                    <li><a href="" class="text-white">Link</a></li>
-                    <li><a href="" class="text-white">Link</a></li>
-                    <li><a href="" class="text-white">Link</a></li>
+            <div class="col-12 col-md-4 text-center">
+                <ul class="list-unstyled">
+                    <li><a href="" class="text-white">News</a></li>
+                    <li><a href="" class="text-white">Events</a></li>
+                    <li><a href="" class="text-white">Mission</a></li>
+                    <li><a href="" class="text-white">Why Mars?</a></li>
                 </ul>
+            </div>
+            <div class="col-12 col-md-4">   
+                <img src="./media/nasa.png" class="d-block mx-auto img-fluid" width="150px" alt="">             
             </div>
         </div>
     </footer>
@@ -224,10 +222,10 @@
             let scrolled = window.pageYOffset
             if (scrolled > 300) {
                 navbar.classList.remove("bg-transparent")
-                navbar.classList.add("bg-dark")
+                navbar.classList.add("bg-third-color")
 
             } else {
-                navbar.classList.remove("bg-dark")
+                navbar.classList.remove("bg-third-color")
                 navbar.classList.add("bg-transparent")
 
             }
